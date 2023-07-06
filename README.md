@@ -1,4 +1,4 @@
-# plants
+# plants Shop UI
 
 A new Flutter project.
 
