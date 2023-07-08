@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:plants/constants/color.dart';
 import 'package:plants/constants/string.dart';
+import 'package:plants/screens/root.dart';
 import '../widgets/pagecontainer.dart';
 import 'login.dart';
 
@@ -96,7 +97,7 @@ class _SplashState extends State<Splash> {
                     }
                   } else {
                     Navigator.pushReplacement(context,
-                        MaterialPageRoute(builder: (_) => const Login()));
+                        MaterialPageRoute(builder: (_) => const RootPage()));
                   }
                 },
               ),
