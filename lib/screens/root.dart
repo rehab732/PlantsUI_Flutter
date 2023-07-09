@@ -33,30 +33,56 @@ class _RootPageState extends State<RootPage> {
     Icons.person,
   ];
 //list of page title
-  List<String> titleList = ['Home', 'favourit', 'cart', 'Profile'];
+  List<String> titleList = ['Home', 'Favorite', 'Cart', 'Profile'];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Maincolors.lightpink,
       appBar: AppBar(
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text(
-              titleList[bottomNavIndex],
-              style: TextStyle(
-                color: Maincolors.blackColor,
-                fontSize: 24,
-                fontWeight: FontWeight.w500,
-              ),
+            Row(
+              children: [
+                Container(
+                  width: 40,
+                  decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      border: Border.all(
+                          color: Maincolors.primaryColor, width: 1.0)),
+                  child: CircleAvatar(
+                    radius: 60,
+                    backgroundColor: Maincolors.primaryColor,
+                    backgroundImage:
+                        const ExactAssetImage('assets/images/profile.png'),
+                  ),
+                ),
+                const SizedBox(
+                  width: 10,
+                ),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "Welcome,",
+                      style: TextStyle(color: Maincolors.primaryColor),
+                    ),
+                    Text(
+                      "Rehab Mohamed",
+                      style: TextStyle(color: Maincolors.primaryColor),
+                    )
+                  ],
+                )
+              ],
             ),
             Icon(
               Icons.notifications,
-              color: Maincolors.blackColor,
-              size: 30.0,
+              color: Maincolors.primaryColor,
+              size: 40.0,
             )
           ],
         ),
-        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+        backgroundColor: Maincolors.lightpink,
         elevation: 0.0,
       ),
       body: IndexedStack(
@@ -73,9 +99,9 @@ class _RootPageState extends State<RootPage> {
         },
         backgroundColor: Maincolors.primaryColor,
         child: Image.asset(
-          'assets/images/scan.png',
+          'assets/images/n.png',
           height: 50.0,
-          width: 40,
+          width: 40.0,
         ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,

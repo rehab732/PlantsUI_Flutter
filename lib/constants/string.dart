@@ -1,6 +1,6 @@
 class Allstrings {
-  static var descriptionone = "Don't judge each day by the harvest you reap but by the seeds that you plant";
-  static var title = "Plant And Breathe";
-  static var descriptiontwo = "A beautiful plant is like having a friend around the house.";
-  static var descriptionthree = "A man doesn't plant a tree for himself. He plants it for posterity.";
+  static var descriptionone = "We dont just create bouquets , we create emotions.";
+  static var title = "We give soul to flowers.";
+  static var descriptiontwo = "If you look the right way, you can see that the whole world is a garden.";
+  static var descriptionthree = "You cant buy happiness, but you can buy flowers which is pretty much the same thing.";
 }

@@ -21,7 +21,8 @@ class PageCreator extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SizedBox(
-              height: 350,
+              height: 200,
+              width: 200,
               child: Image.asset(image),
             ),
             const SizedBox(
@@ -33,13 +34,14 @@ class PageCreator extends StatelessWidget {
               style: TextStyle(
                 color: Maincolors.primaryColor,
                 fontSize: 30,
-                fontWeight: FontWeight.bold,
+                // fontWeight: FontWeight.bold,
+                fontFamily: 'Pacifico'
               ),
             ),
-            SizedBox(
-              height: 50,
-              child: Image.asset('assets/images/icon.png'),
-            ),
+            // SizedBox(
+            //   height: 50,
+            //   child: Image.asset('assets/images/icon.png'),
+            // ),
             const SizedBox(
               height: 20,
             ),

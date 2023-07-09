@@ -12,12 +12,9 @@ class FavoruitPage extends StatefulWidget {
 class _FavoruitPageState extends State<FavoruitPage> {
   @override
   Widget build(BuildContext context) {
-       return Scaffold(
-      appBar: AppBar(
-        title:const Text('Root Page'),
-        backgroundColor: Maincolors.primaryColor,
-      ),
-      body: const Center(child: Text('test')),
+       return const Scaffold(
+      
+      body:  Center(child: Text('test')),
     );
   }
 }

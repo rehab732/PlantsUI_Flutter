@@ -18,8 +18,9 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Maincolors.lightpink,
       appBar: AppBar(
+        
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 20, top: 10),
@@ -39,7 +40,7 @@ class _SplashState extends State<Splash> {
             ),
           )
         ],
-        backgroundColor: Colors.white,
+        backgroundColor: Maincolors.lightpink,
         elevation: 0.0,
       ),
       body: Stack(
@@ -54,15 +55,15 @@ class _SplashState extends State<Splash> {
             controller: _pageController,
             children: [
               PageCreator(
-                image: 'assets/images/home.png',
+                image: 'assets/images/f.png',
                 desc: Allstrings.descriptionone,
               ),
               PageCreator(
-                image: 'assets/images/splashthree.png',
+                image: 'assets/images/ff.png',
                 desc: Allstrings.descriptiontwo,
               ),
               PageCreator(
-                image: 'assets/images/splashone.png',
+                image: 'assets/images/fff.png',
                 desc: Allstrings.descriptionthree,
               ),
             ],
@@ -96,8 +97,8 @@ class _SplashState extends State<Splash> {
                           curve: Curves.easeIn);
                     }
                   } else {
-                    Navigator.pushReplacement(context,
-                        MaterialPageRoute(builder: (_) => const RootPage()));
+                    Navigator.pushReplacement(
+                    context, MaterialPageRoute(builder: (_) => const RootPage()));
                   }
                 },
               ),
