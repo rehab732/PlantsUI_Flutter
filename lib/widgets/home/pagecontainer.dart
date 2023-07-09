@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 
-import '../constants/color.dart';
-import '../constants/string.dart';
+import '../../constants/color.dart';
+import '../../constants/string.dart';
 
 class PageCreator extends StatelessWidget {
   final String image;

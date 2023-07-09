@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:plants/models/flower.dart';
 
-import '../constants/color.dart';
+import '../../constants/color.dart';
 
 class RecommendedCards extends StatelessWidget {
   const RecommendedCards({

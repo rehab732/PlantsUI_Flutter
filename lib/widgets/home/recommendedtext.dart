@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 
-import '../constants/color.dart';
+import '../../constants/color.dart';
 
 class RecommendedText extends StatelessWidget {
   const RecommendedText({

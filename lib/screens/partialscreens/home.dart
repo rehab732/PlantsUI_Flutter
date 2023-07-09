@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:plants/constants/color.dart';
 import '../../models/flower.dart';
-import '../../widgets/category.dart';
-import '../../widgets/recommendedcard.dart';
-import '../../widgets/recommendedtext.dart';
-import '../../widgets/search.dart';
+import '../../widgets/home/category.dart';
+import '../../widgets/home/recommendedcard.dart';
+import '../../widgets/home/recommendedtext.dart';
+import '../../widgets/home/search.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
