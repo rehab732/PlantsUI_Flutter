@@ -2,7 +2,6 @@ import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.da
 import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:plants/constants/color.dart';
-import 'package:plants/screens/login.dart';
 import 'package:plants/screens/partialscreens/cart.dart';
 import 'package:plants/screens/partialscreens/favourit.dart';
 import 'package:plants/screens/partialscreens/home.dart';
